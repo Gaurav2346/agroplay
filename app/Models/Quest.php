@@ -3,12 +3,14 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class Quest extends Model {
     use HasFactory;
     protected $fillable = ['title','description','reward_points','status'];
 
-    public function users() {
+    public function users(): BelongsToMany
+    {
         return $this->belongsToMany(User::class)->withPivot('completed_at')->withTimestamps();
     }
 }
