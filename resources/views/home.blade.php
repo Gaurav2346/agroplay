@@ -4,7 +4,7 @@
     <div class="bg-transparent p-6 rounded shadow">
         <h1 class="text-2xl font-bold">AgroPlay — Gamified Sustainable Farming</h1>
         <p class="mt-2 text-gray-700">
-            Demo: complete quests, earn points, redeem rewards. This prototype is based on your SIH idea.
+            Demo: complete quests, earn points, redeem rewards this prototype is based on our SIH idea.
         </p>
 
         <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-4">
